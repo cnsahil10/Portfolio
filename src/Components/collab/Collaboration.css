@@ -1,0 +1,40 @@
+.collab{
+    display: grid;
+    grid-template-columns: 60% 20%;
+    align-items: center;
+    column-gap: 80px;
+    padding-left: 25px;
+}
+.section1 h1{
+    font-size: 80px;
+    font-weight: 300;
+    line-height: 80px;
+}
+
+
+@media (max-width:844px){
+
+
+    html{
+        width: 844px;
+    }
+
+.collab{
+    display: grid;
+    grid-template-columns: 100%;
+    align-items: center;
+    column-gap: 80px;
+    padding-left: 25px;
+}
+
+.section1 h1{
+    width: 100%;
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 45px;
+}
+
+
+
+    
+}

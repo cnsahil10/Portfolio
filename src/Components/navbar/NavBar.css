@@ -1,0 +1,100 @@
+html{
+    overflow-x: hidden;
+    background-color:white;
+}
+body{
+    font-family:"kanit";
+}
+.nav{
+    padding: 10px 20px 0 60px;
+    display: grid;
+    grid-template-columns:30% 30% 30%;
+    grid-template-rows: 100%;
+    width: 100%;
+    column-gap: 30px;
+    
+}
+.nav h4{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 22px;
+    font-weight: 380;
+    margin: 0;
+}
+.navcontent2 h4 {
+    display: flex;
+    gap: 20px;
+    text-decoration: none;
+    flex-wrap: wrap;
+}
+.navcontent2 li::marker{
+   color: transparent;
+}
+.navcontent3{
+    margin-left: 300px;
+    display: flex;
+    justify-content: row;
+    
+}
+.navcontent3 h4{
+    transition: 0.30s;
+
+}
+.navcontent3>h4:hover{
+    transition: 0.30s;
+    opacity: 0.5;
+}
+
+.navcontent3 .CiLight{
+    transition: 0.30s;
+
+}
+.navcontent3>.CiLight:hover{
+    transition: 0.30s;
+    color: lightgray;
+}
+
+
+li:hover{
+    transition: 1s;
+    text-decoration: underline;
+    text-underline-offset:inherit;
+    cursor: pointer;
+}
+
+
+
+@media (max-width:844px){
+ 
+    html{
+        width: 844px;
+    }
+    
+      .nav{
+        width: 844px;
+        padding: 10px 20px 0 20px;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 170px;
+        
+        column-gap: 30px;
+        
+    }
+    .navcontent1, .navcontent1 h4{
+        display: none;
+    }
+    
+      .navcontent2 h4 {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        text-decoration: none;
+        flex-wrap: wrap;
+    }
+
+.navcontent3{
+    margin-left: 0;
+    padding-left: 200px;
+}
+
+
+    }

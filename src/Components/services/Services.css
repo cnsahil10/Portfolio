@@ -1,0 +1,56 @@
+.service-head h2{
+    font-size: 60px;
+    font-weight: 300;
+}
+.services-card{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    column-gap: 55px;
+    
+}
+.service{
+    padding: 25px;
+}
+.card h1{
+    font-size: 70px;
+    font-weight: 200;
+    opacity: 0.67;
+}
+.card h5{
+    font-size: 50px;
+    font-weight: 300;
+}
+.card p{
+    font-size: 20px;
+    font-weight: 300;
+    
+}
+.card h1,h5,p{
+    margin-top: 0;
+    margin-bottom: 7px;
+}
+
+
+
+@media (max-width:844px){
+
+
+    html{
+        width: 844px;
+    }
+
+    .service-head h2{
+        width: 90%;
+        font-size: 60px;
+        font-weight: 300;
+    }
+
+    .services-card{
+        display: grid;
+        grid-template-columns: 100%;
+        column-gap: 55px;
+        
+    }
+
+
+}
